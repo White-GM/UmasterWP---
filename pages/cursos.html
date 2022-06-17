@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/icons/css/all.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../sass/estilos.css">
+    <link rel="shortcut icon" href="../assets/img/favicon-academia.png" type="image/x-icon">
+    <title>Academia</title>
+    <meta name="description" content="Encuentra los mejores cursos sobre wordpress y sus plugins. Actualizaciones mensuales y soporte personalizado.">
+    <meta name="keywords" content="wordpress, plugins, soporte wordpress, actualiza wordpress, academia, curso wordpress, cursos, crm, builders, elementor">
+</head>
+<body>
+    <!-- Inicio - Header (Bootstrap) -->
+    <header class="c-header">
+        <div class="container">
+            <div class=" d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between py-3">
+            <a class="logo__link" href="../index.html">
+                <img class="logo__img" src="../assets/img/Logo-escritorio.png" alt="Academia">
+            </a>
+            <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="../index.html" class="nav-link px-2"><span class="icon nav__icon fa-solid fa-house"></span>Inicio</a></li>
+                <li><a href="#" class="nav-link px-2"><span class="icon nav__icon fa-solid fa-book"></span>Curso</a></li>
+                <li><a href="blog.html" class="nav-link px-2"><span class="icon nav__icon fa-solid fa-newspaper"></span>Blog</a></li>
+            </ul>
+            <div class="col-lg-auto text-end">
+                <button type="button" class="btn btn-outline-light me-2">Ingresar</button>
+                <button type="button" class="btn btn-primary">Registrarse</button>
+            </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin - Header (Bootstrap) -->
+    
+    <!-- Grid de cursos - Inicio -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="content content-main py-3">
+                <span class="icon content-main__icon fa-solid fa-book"></span>
+                <div class="content-main__div">
+                    <h2 class="content-title fw-bold">Echa un vistazo a Nuestros Cursos</h2>
+                    <p class="content__description content-main__description">Filtra los cursos de tu preferencia</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-floating col-md-5 mb-3 flex-fill">
+                    <input type="text" class="form-control rounded-pill px-5" id="floatingInput" placeholder="name@example.com">
+                    
+                    <label class="mx-5" for="floatingInput">
+                        <span class="me-2 fa-solid fa-magnifying-glass"></span>
+                        Buscar curso...
+                    </label>
+                </div>
+                <div class="form-floating col-md-3 mb-3 flex-fill">
+                    <select class="form-select rounded-pill ps-4" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Categoría 1</option>
+                        <option value="1">Categoría 2</option>
+                        <option value="2">Categoría 3</option>
+                        <option value="3">Categoría 4</option>
+                    </select>
+                    <label class="ps-5" for="floatingSelect">Filtrar categoría</label>
+                </div>
+                <div class="form-floating col-md-3 mb-3 flex-fill">
+                    <select class="form-select rounded-pill ps-4" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Jose Miguel Hernandez Estrada</option>
+                        <option value="1">Francisco Jimenez Tobar</option>
+                        <option value="2">Juana Dias Cuadros</option>
+                        <option value="3">Hector Dias Cuadros</option>
+                    </select>
+                    <label class="ps-5" for="floatingSelect">Filtrar por autor</label>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="filter__currency col-md-4 mb-3 flex-fill">
+                    <p class="filter__tittle fw-bold mb-1">Tipo de moneda</p>
+                    <div class="multi-currency multi-currency--filter">
+                        <a href="#" class="hyperlink multi-currency__item">
+                            <img src="../assets/img/Bandera-peru.png" alt="" class="multi-currency__img">
+                            <p class="multi-currency__country">Perú S/ .PEN</p>
+                            <span class="icon multi-currency__icon fa-solid fa-angle-down"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="filter-payment-method col-md-8 mb-3 flex-fill">
+                    <p class="filter__tittle fw-bold mb-1">Métodos de pago aceptados</p>
+                    <div class="icon-payments">
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-visa"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-stripe"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-paypal"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-discover"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-amex"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-mastercard"></span>
+                        <span class="me-3 fs-1 icon icon--size-medium fa-brands fa-cc-diners-club"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="fs-4 fw-bold col mb-5">Todos los cursos</h3>
+                <div class="icon-group col mb-5 d-flex justify-content-end">
+                    <span class="icon courses-h__icon fa-solid fa-grip"></span>
+                    <spani class="icon courses-h__icon fa-solid fa-bars"></spani>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap mb-4 courses-grid">
+                <article class="course-g content col content--border">
+                    <img class="content__img" src="../assets/img/fluentcrm.jpg" alt="">
+                    <div class="article__container">
+                        <div class="author align-items-center">
+                            <span class="author__img fa-solid fa-circle-user fs-3"></span>
+                            <div class="author__content">
+                                <p class="author__name">Jose Hernandez Estrada</p>
+                                <p class="author__profession">Experto en Email Marketing</p>
+                            </div>
+                        </div>
+                        <h2 class="content__title content__title--size-medium fw-bold">Aprende a integrar los CRM más conocidos del mercado</h2>
+                        <p class="content__description">Un CRM (Customer Relationship Management) es un software que se encarga de los procesos...</p>
+                        <p class="content__price fw-bold">S/250.00</p>
+                        <div class="content__buttons">
+                            <a class="btn btn-primary d-block" href="#"><span class="button_icon fa-solid fa-cart-shopping"></span>Añadir al carrito</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-g content col content--border">
+                    <img class="content__img" src="../assets/img/Wordpres 2.jpg" alt="">
+                    <div class="article__container">
+                        <div class="author align-items-center">
+                            <span class="author__img fa-solid fa-circle-user fs-3"></span>
+                            <div class="author__content">
+                                <p class="author__name">Francisco Jimenez Tobar</p>
+                                <p class="author__profession">Experto en wordpress</p>
+                            </div>
+                        </div>
+                        <h2 class="content__title content__title--size-medium fw-bold">De principiante a experto en Wordpress</h2>
+                        <p class="content__description">Crea páginas web que te ayuden a atraer a tus clientes ideales, aumentar tus ingresos e incrementar tu impacto en el mundo.</p>
+                        <p class="content__price fw-bold">S/80.00</p>
+                        <div class="content__buttons">
+                            <a class="btn btn-primary d-block" href="#"><span class="button_icon fa-solid fa-cart-shopping"></span>Añadir al carrito</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-g content col content--border">
+                    <img class="content__img" src="../assets/img/Fluent forms.jpg" alt="">
+                    <div class="article__container">
+                        <div class="author align-items-center">
+                            <span class="author__img fa-solid fa-circle-user fs-3"></span>
+                            <div class="author__content">
+                                <p class="author__name">Juana Dias Cuadros</p>
+                                <p class="author__profession">Experto en wordpress</p>
+                            </div>
+                        </div>
+                        <h2 class="content__title content__title--size-medium fw-bold">Crea tus formularios con Fluent Forms</h2>
+                        <p class="content__description">Fluent Forms es el generador de formularios de WordPress más amigable para principiantes disponible en la actualidad...</p>
+                        <p class="content__price fw-bold">S/120.00</p>
+                        <div class="content__buttons">
+                            <a class="btn btn-primary d-block" href="#"><span class="button_icon fa-solid fa-cart-shopping"></span>Añadir al carrito</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-g content col content--border">
+                    <img class="content__img" src="../assets/img/Ecommerce.jpg" alt="">
+                    <div class="article__container">
+                        <div class="author align-items-center">
+                            <span class="author__img fa-solid fa-circle-user fs-3"></span>
+                            <div class="author__content">
+                                <p class="author__name">Hector Dias Cuadros</p>
+                                <p class="author__profession">Experto en wordpress</p>
+                            </div>
+                        </div>
+                        <h2 class="content__title content__title--size-medium fw-bold">Crea un Ecommerce desde 0</h2>
+                        <p class="content__description">Digitaliza tu negocio. Crea tu primer Ecommerce desde 0 y amplia tu clientela. Hazlo tu mismo y no dejes que ...</p>
+                        <p class="content__price fw-bold">S/150.00</p>
+                        <div class="content__buttons">
+                            <a class="btn btn-primary d-block" href="#"><span class="button_icon fa-solid fa-cart-shopping"></span>Añadir al carrito</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="c_button mb-5">
+                <a class="btn btn-primary" href="#"><span class="icon button__icon fa-solid fa-angle-down"></span>Cargar mas cursos</a>
+            </div>
+        </div>
+    </div>
+    <!-- Grid de cursos - Inicio -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="block b-footer">
+            <div class="c-footer-1">
+                <p class="footer__email"><span class="icon footer__icon fa-solid fa-envelope"></span>correocorporativo@gmail.com</p>
+                <div class="redes redes--horizontal">
+                    <span class="icon redes__icon fa-brands fa-facebook-square"></span>
+                    <span class="icon redes__icon fa-brands fa-instagram"></span>
+                    <span class="icon redes__icon fa-brands fa-linkedin"></span>
+                </div>
+                <div class="multi-currency">
+                    <a href="#" class="hyperlink multi-currency__item">
+                        <img src="../assets/img/Bandera-peru.png" alt="" class="multi-currency__img">
+                        <p class="multi-currency__country">Perú S/ .PEN</p>
+                        <span class="icon multi-currency__icon fa-solid fa-angle-down"></span>
+                    </a>
+                </div>
+            </div>
+            <span class="separator footer__separator"></span>
+            <div class="c-footer-2">
+                <p class="footer__copyright">Copyright © Academia 2022 -Todos los derechos</p>
+                <nav class="nav nav-footer">
+                    <ul class="nav__list nav-footer__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Políticas de privacidad</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Términos y condiciones</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="nav nav-footer-m">
+                <ul class="nav__list nav-footer__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Políticas de privacidad</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Términos y condiciones</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="contacto.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+        <!--Fin - Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

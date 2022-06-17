@@ -1,0 +1,152 @@
+/* Inicio - Footer */
+.footer 
+    background-color: $color1
+
+.b-footer 
+    max-width: 1400px
+    margin: auto
+    height: 100%
+    display: grid
+    grid-template: 1fr 20px 1fr / repeat(2, 1fr)
+
+.c-footer-1 
+    grid-area: 1/1/2/3
+    display: grid
+    grid-template-areas: 'e i . . . . . m'
+    align-items: center
+
+.footer__icon 
+    color: $color4
+    padding-right: 10px
+    font-size: 20px
+
+.footer__email 
+    color: $color4
+    grid-area: e
+    margin: 0px
+
+.redes__icon 
+    font-size: 30px
+    color: $color4
+    padding-inline: 15px
+
+    &:hover 
+        color: $color3-h
+
+.redes--horizontal 
+    margin: 10px 0 10px
+    grid-area: i
+
+.multi-currency 
+    background-color: $color4
+    list-style: none
+    border-radius: 50px
+    border: 1px solid $color1
+    padding-inline: 10px
+    grid-area: m
+
+.multi-currency__img 
+    width: 25px
+    border-radius: 20px
+    display: inline-block
+    vertical-align: middle
+    border: 1px solid $color1
+
+.multi-currency__country 
+    display: inline-block
+    color: $color1
+    vertical-align: middle
+    margin: 10px 0
+
+.multi-currency__icon 
+    float: right
+    padding: 13px
+
+.footer__separator 
+    display: inline-block
+    width: 100%
+    height: 1px
+    background-color: $color4
+    margin: 0
+    grid-area: 2/1/3/3
+    margin: 10px 0
+
+.c-footer-2 
+    grid-area: 3/1/4/3
+    display: grid
+    grid-template-areas: 'i h'
+    align-items: center
+
+.footer__copyright 
+    color: $color4
+    grid-area: i
+
+
+.nav-footer 
+    display: flex
+    grid-area: h
+    justify-self: end
+
+.nav-footer-m 
+    display: none
+
+.nav-footer__list 
+    list-style: none
+    display: flex
+    margin: 0
+    padding: 0
+    width: 50%
+    width: 100%
+    text-align: center
+
+.nav__item 
+    padding-inline: 10px
+
+.nav__link 
+    color: $color4
+    text-decoration: none
+    &:hover
+        color: $color3-h
+        transition: all 0.5s ease
+
+
+@media only screen and (max-width:1023px) 
+    .b-footer 
+        grid-template: auto 1fr 20px 1fr / repeat(2, 1fr)
+    
+    .c-footer-1 
+        grid-area: 2/1/3/3
+        margin-inline: 10px
+    
+    .footer__separator 
+        grid-area: 3/1/4/3
+    
+    .c-footer-2 
+        grid-area: 4/1/5/3
+        margin-inline: 10px
+    
+    .nav-footer 
+        display: none
+    
+    .nav-footer-m 
+        display: block
+        grid-area: 1/1/2/3
+        align-self: center
+        margin-inline: 20px
+        margin: 20px 0px
+    
+    .nav-footer-m > .nav__list 
+        display: flex
+        flex-flow: column nowrap
+        gap: 15px
+    
+
+@media only screen and (max-width:650px) 
+    .multi-currency 
+        display: none
+    
+    .redes--horizontal > .redes__icon 
+        padding-inline: 5px
+
+
+/* Fin - Footer */

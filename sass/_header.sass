@@ -1,0 +1,45 @@
+/* Header - Inicio */
+
+.c-header 
+    background-color: $color1
+
+
+@media (min-width: 1400px)
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl 
+        max-width: 1400px
+
+
+.nav__icon 
+    padding-right: 10px
+    color: $color3
+    transition: all 0.3s ease
+
+
+.nav-link:hover .nav__icon 
+    color: $color3-h
+    transition: all 0.3s ease
+
+
+.nav-link:focus .nav__icon 
+    color: $color3-h
+
+
+.nav-link 
+    color: $color4
+    transition: all 0.3s ease
+    &:hover 
+        color: $color3-h
+        transition: all 0.3s ease
+    &:focus 
+        color: $color3-h
+
+
+.btn-outline-light 
+    border-radius: 50px
+    padding-inline: 20px
+    &:hover 
+        background-color: $color2-h
+        border: 1px solid $color2-h
+        color: $color4
+
+/* Header - Fin */
